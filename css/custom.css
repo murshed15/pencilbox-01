@@ -1,0 +1,89 @@
+/* Custom styles */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+h2, h3, h4 {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+/* Food List Styling */
+ul.food-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul.food-list li {
+    background-color: #f8f9fa;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+ul.food-list li:hover {
+    background-color: #ffc107;
+}
+
+/* Fan's Feedback Section Styles */
+#fan-feedback {
+    background-color: #ffffff;
+    padding: 50px 0;
+}
+
+#fan-feedback h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+#fan-feedback .lead {
+    font-size: 1.25rem;
+    color: #555;
+}
+
+#fan-feedback h5 {
+    font-size: 1.1rem;
+    margin-top: 15px;
+    font-weight: bold;
+}
+.carousel-control-prev-icon .hiiii{
+    color: #000000;
+}
+#bannerss{
+    background-image: url(../image/banner.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* Additional custom styling for the Fan's Feedback */
+blockquote {
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+.carousel-item img {
+    max-width: 100px;
+    border: 2px solid #ddd;
+    padding: 5px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgb(211, 209, 209);
+}
+.blockquote-footer{
+    padding-top: 10px;
+}
+.navbar-brand img{
+    height: 100px;
+    width: 150px;
+}
